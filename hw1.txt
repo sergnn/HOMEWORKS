@@ -1,0 +1,47 @@
+1 ДЗ
+Linux terminal (GitBash) commands                                                     |
+
+1) Посмотреть где я                                                                   | 1) pwd
+2) Создать папку                                                                      | 2) mkdir hw1
+3) Зайти в папку                                                                      | 3) cd hw1
+4) Создать 3 папки                                                                    | 4) mkdir hw2 hw3 hw4
+5) Зайти в любоую папку                                                               | 5) cd hw2
+6) Создать 5 файлов (3 txt, 2 json)                                                   | 6) touch file1.txt file2.txt file3.txt file4.json file5.json
+7) Создать 3 папки                                                                    | 7) mkdir hw5 hw6 hw7
+8. Вывести список содержимого папки                                                   | 8) ls -la
+9) + Открыть любой txt файл                                                           | 9) vim file1.txt
+10) + написать туда что-нибудь, любой текст.                                          | 10) {"name":"Serg"}
+11) + сохранить и выйти.                                                              | 11) esc :wq
+12) Выйти из папки на уровень выше                                                    | 12) cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.              | 13) mv file1.txt file2.txt hw6/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.              | 14) cp file4.json file5.json hw6/
+15) Найти файл по имени                                                               | 15) find . -name "file1.txt"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.| 16) grep "" file1.txt
+17) вывести несколько первых строк из текстового файла                                | 17) head file1.txt -n 3 
+18) вывести несколько последних строк из текстового файла                             | 18) tail file1.txt -n 3
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.    | 19) less file1.txt
+20) вывести дату и время                                                              | 20) date или date + "%A %d %B" (полное наименование дня/месяца)
+__________________________________
+
+
+Задание *
+1) Отправить http запрос на сервер.                                                                                           |                    
+http://162.55.220.72:5005/terminal-hw-request                                                                                 | curl http://162.55.220.72:5005/terminal-hw-request   
+http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}   | curl "http://162.55.220.72:5005/get_method?name=sergio&age=28"                                                                                
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13                                                 | vim firstscript
+                                                                                                                              | #!/bin/bash
+
+                                                                                                                              | cd hw1
+                                                                                                                              | mkdir hw2 hw3 hw4
+                                                                                                                              | cd hw2
+                                                                                                                              | touch file1.txt file2.txt file3.txt file4.json file5.json
+                                                                                                                              | mkdir hw5 hw6 hw7
+                                                                                                                              | ls -la
+                                                                                                                              | mv file1.txt file2.txt hw6/
+                                                                                                                              | ./firstscript
+
+
+
+
+
