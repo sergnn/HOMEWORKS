@@ -25,7 +25,7 @@
                                                                                                 |  Ожидаемый результат (Expected Result)
                                                                                                 |  Прикрепленный файл (Attachment)
 4. Запушить структуру багрепорта на внешний репозиторий                                         | git add . && git commit -m "bug" && git push
-5. Вмержить ветку Bag Reports в Main                                                            | git checkout Bug_Reports && git merge Bug_Reports
+5. Вмержить ветку Bag Reports в Main                                                            | git checkout main && git merge Bug_Reports
 6. Запушить main на внешний репозиторий.                                                        | git push
 7. В ветке CheckLists набросать структуру чек листа.                                            | git checkout CheckLists && vim checklist.txt
                                                                                                 | What we will do
