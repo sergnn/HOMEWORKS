@@ -1,5 +1,5 @@
-
-# 1. На локальном репозитории сделать ветки для: #                                              | git init
+п»ї
+ 1. РќР° Р»РѕРєР°Р»СЊРЅРѕРј СЂРµРїРѕР·РёС‚РѕСЂРёРё СЃРґРµР»Р°С‚СЊ РІРµС‚РєРё РґР»СЏ:                                                 | git init
 - Postman                                                                                       | touch file.txt                                              
 - Jmeter                                                                                        | git commit -m "commited"                                           
 - CheckLists                                                                                    | git branch Postman && git branch Jmeter && git branch CheckLists                                            
@@ -8,29 +8,29 @@
 - Charles                                                                                       |
 - Mobile testing                                                                                | git branch Mobile_Testing
                                                                                                 |
-2. Запушить все ветки на внешний репозиторий                                                    | git push -u --all
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта                     | git checkout Bug_Reports && vim bug.txt
-                                                                                                |  Короткое описание (Summary)
-                                                                                                |  Проект (Project)
-                                                                                                |  Компонент приложения (Component)
-                                                                                                |  Номер версии (Version)
-                                                                                                |  Серьезность (Severity)
-                                                                                                |  Приоритет (Priority)
-                                                                                                |  Статус (Status)
-                                                                                                |  Автор (Author)
-                                                                                                |  Назначен на (Assigned To)
-                                                                                                |  Окружение
-                                                                                                |  Шаги воспроизведения (Steps to Reproduce)
-                                                                                                |  Фактический Результат (Result)
-                                                                                                |  Ожидаемый результат (Expected Result)
-                                                                                                |  Прикрепленный файл (Attachment)
-4. Запушить структуру багрепорта на внешний репозиторий                                         | git add . && git commit -m "bug" && git push
-5. Вмержить ветку Bag Reports в Main                                                            | git checkout Bug_Reports && git merge Bug_Reports
-6. Запушить main на внешний репозиторий.                                                        | git push
-7. В ветке CheckLists набросать структуру чек листа.                                            | git checkout CheckLists && vim checklist.txt
+2. Р—Р°РїСѓС€РёС‚СЊ РІСЃРµ РІРµС‚РєРё РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№                                                    | git push -u --all
+3. Р’ РІРµС‚РєРµ Bag Reports СЃРґРµР»Р°С‚СЊ С‚РµРєСЃС‚РѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ СЃРѕ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ Р±Р°Рі СЂРµРїРѕСЂС‚Р°                     | git checkout Bug_Reports && vim bug.txt
+                                                                                                |  РљРѕСЂРѕС‚РєРѕРµ РѕРїРёСЃР°РЅРёРµ (Summary)
+                                                                                                |  РџСЂРѕРµРєС‚ (Project)
+                                                                                                |  РљРѕРјРїРѕРЅРµРЅС‚ РїСЂРёР»РѕР¶РµРЅРёСЏ (Component)
+                                                                                                |  РќРѕРјРµСЂ РІРµСЂСЃРёРё (Version)
+                                                                                                |  РЎРµСЂСЊРµР·РЅРѕСЃС‚СЊ (Severity)
+                                                                                                |  РџСЂРёРѕСЂРёС‚РµС‚ (Priority)
+                                                                                                |  РЎС‚Р°С‚СѓСЃ (Status)
+                                                                                                |  РђРІС‚РѕСЂ (Author)
+                                                                                                |  РќР°Р·РЅР°С‡РµРЅ РЅР° (Assigned To)
+                                                                                                |  РћРєСЂСѓР¶РµРЅРёРµ
+                                                                                                |  РЁР°РіРё РІРѕСЃРїСЂРѕРёР·РІРµРґРµРЅРёСЏ (Steps to Reproduce)
+                                                                                                |  Р¤Р°РєС‚РёС‡РµСЃРєРёР№ Р РµР·СѓР»СЊС‚Р°С‚ (Result)
+                                                                                                |  РћР¶РёРґР°РµРјС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚ (Expected Result)
+                                                                                                |  РџСЂРёРєСЂРµРїР»РµРЅРЅС‹Р№ С„Р°Р№Р» (Attachment)
+4. Р—Р°РїСѓС€РёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ Р±Р°РіСЂРµРїРѕСЂС‚Р° РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№                                         | git add . && git commit -m "bug" && git push
+5. Р’РјРµСЂР¶РёС‚СЊ РІРµС‚РєСѓ Bag Reports РІ Main                                                            | git checkout Bug_Reports && git merge Bug_Reports
+6. Р—Р°РїСѓС€РёС‚СЊ main РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№.                                                        | git push
+7. Р’ РІРµС‚РєРµ CheckLists РЅР°Р±СЂРѕСЃР°С‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ С‡РµРє Р»РёСЃС‚Р°.                                            | git checkout CheckLists && vim checklist.txt
                                                                                                 | What we will do
                                                                                                 | What we need not to forget
                                                                                                 | What we will check
-8. Запушить структуру на внешний репозиторий                                                    | git add . && git commit -m "checklist" && git push
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main                          | GitHub -> CheckLists had recent pushes less than a minute ago -> Compare && Pull requests -> Pull request successfully merged and closed
-10. Синхронизировать Внешнюю и Локальную ветки Main                                             | git pull
+8. Р—Р°РїСѓС€РёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№                                                    | git add . && git commit -m "checklist" && git push
+9. РќР° РІРЅРµС€РЅРµРј СЂРµРїРѕР·РёС‚РѕСЂРёРё СЃРґРµР»Р°С‚СЊ Pull Request РІРµС‚РєРё CheckLists РІ main                          | GitHub -> CheckLists had recent pushes less than a minute ago -> Compare && Pull requests -> Pull request successfully merged and closed
+10. РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊ Р’РЅРµС€РЅСЋСЋ Рё Р›РѕРєР°Р»СЊРЅСѓСЋ РІРµС‚РєРё Main                                             | git pull
