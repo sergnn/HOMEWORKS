@@ -33,4 +33,4 @@
                                                                                                 | What we will check
 8. Запушить структуру на внешний репозиторий                                                    | git add . && git commit -m "checklist" && git push
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main                          | GitHub -> CheckLists had recent pushes less than a minute ago -> Compare && Pull requests -> Pull request successfully merged and closed
-10. Синхронизировать Внешнюю и Локальную ветки Main                                             | git pull
+10. Синхронизировать Внешнюю и Локальную ветки Main                                             | git checkout main && git pull
