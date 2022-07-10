@@ -20,7 +20,7 @@
        <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/SOFTWARE%20TESTING%20CONFERENCE">
   <img src ="https://www.supplyninjas.co/wp-content/uploads/2022/03/quality-assurance1.jpg" width=55px'>
       <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/CHARLES">
-  <img src ="https://davidwalsh.name/demo/charlesproxyicon.svg" width=50px'>
+  <img src ="https://davidwalsh.name/demo/charlesproxyicon.svg" width=51px'>
          </a>
      </p>
   </div> 
