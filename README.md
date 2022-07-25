@@ -3,7 +3,7 @@
 
 <div>
   <p align='center'>
-       <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/GITBASH">
+       <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/Terminal%20%2B%20Bash.%20VCS%20GIT">
     <img src="https://gitforwindows.org/img/gwindows_logo.png" width="50px"/>
     <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/POSTMAN">
   <img src="https://cdn.worldvectorlogo.com/logos/postman.svg" width="55px"/>
