@@ -13,7 +13,7 @@
   <img src="https://1.bp.blogspot.com/-1iivg2d8Pyg/V0k2fS89VmI/AAAAAAAADOE/PYCdhBzfkzQZ_UA3d1bV1stz54AjrB6WACLcB/s1600/logo_chromium.png" width="50px"/>
 	   <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/SQL">
   <img src="https://thumbs.dreamstime.com/b/sql-icon-sql-icon-simple-vetor-icon-125045332.jpg" width="60px"/>
-	   <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/WEB%20TESTING">
+	   <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/WEB%20TESTING/Practice">
   <img src="https://www.kindpng.com/picc/m/75-755095_bug-insect-ladybird-animal-logo-for-pest-control.png" width="50px"/>
   <a href ="https://github.com/sergnn/HOMEWORKS/tree/main/MOBILE%20TESTING">
   <img src="https://www.kindpng.com/picc/m/17-179209_showdown-of-ios-9-vs-android-m-android.png" width="70px"/>
